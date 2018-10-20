@@ -26,7 +26,7 @@ class TemperatureConversionsTest {
     }
 
     @Test
-    public void getTemperatureConversionsSoap12() throws Exception {
+    public void getTemperatureConversionsSoap12() {
 
         BigDecimal result = temperatureConversions.celsiusToFahrenheit(BigDecimal.valueOf(0));
         assertEquals(BigDecimal.valueOf(32), result);
